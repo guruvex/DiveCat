@@ -6,61 +6,56 @@
     android:layout_height="match_parent"
     android:background="@color/backGround">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <ImageView
             android:id="@+id/one"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/divecat"
             android:contentDescription="@string/describeImage"
-            />
+            android:src="@drawable/divecat" />
 
-            <TextView
-                android:id="@+id/two"
-                style="@style/myTextBox"
-                android:layout_height="235dp"
-                android:text="@string/intro" />
+        <TextView
+            android:id="@+id/two"
+            style="@style/myTextBox"
+            android:layout_height="235dp"
+            android:text="@string/intro" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-                <Button
-                    style = "@style/myButton"
-                    android:id="@+id/b1"
-                    android:text="@string/b3Text"
-                    android:onClick="showTime"
-                    />
+            <Button
+                android:id="@+id/b1"
+                style="@style/myButton"
+                android:onClick="showTime"
+                android:text="@string/b3Text" />
 
-                <Button
-                    style = "@style/myButton"
-                    android:id="@+id/b2"
-                    android:text="@string/b2Text"
-                    android:onClick="showWeb"
+            <Button
+                android:id="@+id/b2"
+                style="@style/myButton"
+                android:onClick="showWeb"
+                android:text="@string/b2Text"
 
-                    />
+                />
 
-                <Button
-                    style = "@style/myButton"
-                    android:id="@+id/b3"
-                    android:text="@string/b1Text"
-                    android:onClick="showPhone"
-                    />
+            <Button
+                android:id="@+id/b3"
+                style="@style/myButton"
+                android:onClick="showPhone"
+                android:text="@string/b1Text" />
 
-                <Button
-                    style = "@style/myButton"
-                    android:id="@+id/b4"
-                    android:text="@string/b4Text"
-                    android:onClick="showAddress"
-                    />
-            </LinearLayout>
+            <Button
+                android:id="@+id/b4"
+                style="@style/myButton"
+                android:onClick="showAddress"
+                android:text="@string/b4Text" />
         </LinearLayout>
+    </LinearLayout>
 </ScrollView>
 
 
