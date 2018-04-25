@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DiveCats</string>
+
+    <string name="describeImage">skydiving cat</string>
+    <string name="b1Text">Phone</string>
+    <string name="b2Text">Web</string>
+    <string name="b3Text">Time</string>
+    <string name="b4Text">Address</string>
+
+    <string name="intro">Welcome to the Dive Cats App. Use the buttons below to find contact information</string>
+
+    <string name="address">Are location is</string>
+    <string name="address1">40 S Main St, Springville, UT 84663</string>
+
+    <string name="webSite">Find us online at</string>
+    <string name="webSite1">https://www.divecats.co</string>
+
+    <string name="phone">Call us at</string>
+    <string name="phone1">(801) 000-0000</string>
+
+    <string name="openDaysOne">Monday — Thursday 10 a.m. to 9 p.m.</string>
+    <string name="openDaysTwo">Friday 10 a.m. to 6 p.m.</string>
+    <string name="openDaysThree">Saturday 10 a.m. to 4 p.m.</string>
+</resources>

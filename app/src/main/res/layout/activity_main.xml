@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGround">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        <ImageView
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divecat"
+            android:contentDescription="@string/describeImage"
+            />
+
+            <TextView
+                android:id="@+id/two"
+                style="@style/myTextBox"
+                android:layout_height="235dp"
+                android:text="@string/intro" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    style = "@style/myButton"
+                    android:id="@+id/b1"
+                    android:text="@string/b3Text"
+                    android:onClick="showTime"
+                    />
+
+                <Button
+                    style = "@style/myButton"
+                    android:id="@+id/b2"
+                    android:text="@string/b2Text"
+                    android:onClick="showWeb"
+
+                    />
+
+                <Button
+                    style = "@style/myButton"
+                    android:id="@+id/b3"
+                    android:text="@string/b1Text"
+                    android:onClick="showPhone"
+                    />
+
+                <Button
+                    style = "@style/myButton"
+                    android:id="@+id/b4"
+                    android:text="@string/b4Text"
+                    android:onClick="showAddress"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+</ScrollView>
+
+
+
